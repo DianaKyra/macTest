@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>demon</title>
     <style>
-        body{
-            color: beige;
+        *{
+            margin: 0;
+            padding: 0;
         }
+      /* body {
+        color: beige;
+      } */
+      .test{
+          background-color: darkgrey;
+          font-size: 0;    /* 重置input与div间隙 */
+      }
+      input{
+          background-color: floralwhite;
+          border: 1px solid wheat;
+          color: rgba(324, 084, 123, 0.7);
+          outline: none;
+      }
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
+    <div class="test">
+      <label for="inp"></label>
+      <input type="input" value="" placeholder="我是按钮" id="inp" />
+    </div>
     <script>
-        function trollop(kiss) {
-            console.log(1)
-        }
-        
+      function trollop() {
+        console.log(1);
+      }
+      /* trollop() */
     </script>
-</body>
+  </body>
 </html>
